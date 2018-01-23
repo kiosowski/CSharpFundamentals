@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ReverseString", "01.Reve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SimpleCalculator", "02.SimpleCalculator\02.SimpleCalculator.csproj", "{80D554B1-76CC-4433-813D-F535C51A2625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DecimalToBinaryConverter", "03.DecimalToBinaryConverter\03.DecimalToBinaryConverter.csproj", "{FCFBAF7C-82D9-47B6-88E8-6C8FB13C70BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.DecimalToBinaryConverter", "03.DecimalToBinaryConverter\03.DecimalToBinaryConverter.csproj", "{FCFBAF7C-82D9-47B6-88E8-6C8FB13C70BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatchingBrackets", "04.MatchingBrackets\04.MatchingBrackets.csproj", "{EEC01CC7-3073-417F-A885-ED6670934149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MatchingBrackets", "04.MatchingBrackets\04.MatchingBrackets.csproj", "{EEC01CC7-3073-417F-A885-ED6670934149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.HotPotato", "05.HotPotato\05.HotPotato.csproj", "{14807693-A5A6-405C-AFD0-D6048F112D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TrafficLight", "06.TrafficLight\06.TrafficLight.csproj", "{E1735BD5-6049-42BD-8032-4EDDBCAA4B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{EEC01CC7-3073-417F-A885-ED6670934149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC01CC7-3073-417F-A885-ED6670934149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC01CC7-3073-417F-A885-ED6670934149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14807693-A5A6-405C-AFD0-D6048F112D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14807693-A5A6-405C-AFD0-D6048F112D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14807693-A5A6-405C-AFD0-D6048F112D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14807693-A5A6-405C-AFD0-D6048F112D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1735BD5-6049-42BD-8032-4EDDBCAA4B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1735BD5-6049-42BD-8032-4EDDBCAA4B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1735BD5-6049-42BD-8032-4EDDBCAA4B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1735BD5-6049-42BD-8032-4EDDBCAA4B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
