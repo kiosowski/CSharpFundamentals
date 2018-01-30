@@ -9,11 +9,11 @@ namespace _01.ReverseString
         static void Main(string[] args)
         {
             var input = Console.ReadLine();
-            var stack = new Stack<char>();
+            var stack = new Stack<char>(input.ToCharArray());
 
             foreach (var char in stack)
             {
-
+				Console.Write(stack.Pop().ToString());
             }
         }
     }
