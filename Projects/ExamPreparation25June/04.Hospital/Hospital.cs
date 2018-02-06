@@ -8,30 +8,63 @@ namespace _04.Hospital
     {
         static void Main(string[] args)
         {
+            var departaments = new Dictionary<string, List<string>>();
+            var doctors = new Dictionary<string, List<string>>();
+            var line = Console.ReadLine();
 
-            var input = string.Empty;
-            var hospital = new Dictionary<string, Dictionary<string, string>>();
-            while ((input = Console.ReadLine()) != "Output")
+            while (line!="Output")
             {
-                var splitted = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
-
-                var departament = splitted[0];
-                var doctor = splitted[1] + " " + splitted[2];
-                var patient = splitted[3];
-
-                if (!hospital[departament].ContainsKey(doctor))
+                var tokens = line.Split().ToArray();
+                var dep = tokens[0];
+                var dfn = tokens[1] + " " + tokens[2];
+                var patient = tokens[3];
+                if (!departaments.ContainsKey(dep))
                 {
-                    hospital[departament] = new Dictionary<string, string>();
+                    departaments[dep] = new List<string>();
                 }
-                hospital[departament][doctor] = patient;
+                departaments[dep].Add(patient);
+                if (!doctors.ContainsKey(dfn))
+                {
+                    doctors[dfn] = new List<string>();
+                }
+                doctors[dfn].Add(patient);
+                line = Console.ReadLine();
             }
-            while ((input = Console.ReadLine()) != "End")
+            line = Console.ReadLine().Trim();
+            while (line!="End")
             {
-                var command = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
-
-
+                var token = line.Split().ToArray();
+                if (token.Length == 1)
+                {
+                    foreach (var patients in departaments[line])
+                    {
+                        Console.WriteLine(patients);
+                    }
+                }
+                else if (int.TryParse(token[1],out int result))
+                {
+                    if (int.Parse(token[1]) >20)
+                    {
+                        continue;
+                    }
+                    var patients = departaments[token[0]];
+                    var room = patients.Skip(3 * (int.Parse(token[1]) - 1)).Take(3).OrderBy(p => p);
+                    foreach (var patient in room)
+                    {
+                        Console.WriteLine(patient);
+                    }
+                }
+                else
+                {
+                    var pat = doctors[line];
+                    pat.Sort();
+                    foreach (var patient in pat)
+                    {
+                        Console.WriteLine(patient);
+                    }
+                }
+                line = Console.ReadLine();
             }
-
         }
     }
 }
