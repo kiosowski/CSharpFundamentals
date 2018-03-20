@@ -1,6 +1,8 @@
-﻿namespace P04.Recharge
+﻿using P04.Recharge.Interfaces;
+
+namespace P04.Recharge
 {
-    public abstract class Worker : ISleeper, IRechargeable
+    public abstract class Worker : IWorker
     {
         private string id;
         private int workingHours;
@@ -10,13 +12,9 @@
             this.id = id;
         }
 
-        public void Work(int hours)
+        public virtual void Work(int hours)
         {
             this.workingHours += hours;
         }
-
-        public abstract void Sleep();
-
-        public abstract void Recharge();
     }
 }

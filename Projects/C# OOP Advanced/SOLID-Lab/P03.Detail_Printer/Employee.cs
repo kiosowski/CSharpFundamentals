@@ -1,16 +1,21 @@
-﻿using System;
+﻿using P03.Detail_Printer;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace P03.DetailPrinter
 {
-    public class Employee
+    public class Employee : IEmployee
     {
         public Employee(string name)
         {
             this.Name = name;
         }
 
-        public string Name { get; set; }
+        public string Name { get; private set; }
+        public override string ToString()
+        {
+            return $"{this.Name}";
+        }
     }
 }

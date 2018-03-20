@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace P04.Recharge
+namespace Logger.Core.Contracts
 {
-    public interface IRechargeable
+    public interface IEngine
     {
-        void Recharge();
+        void Run();
     }
 }
