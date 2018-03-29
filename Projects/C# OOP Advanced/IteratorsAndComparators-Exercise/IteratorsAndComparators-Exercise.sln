@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ListyIterator", "01.ListyIterator\01.ListyIterator.csproj", "{FD0D5244-FC6A-40C4-A5D4-36F6E3817D17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Collection", "02.Collection\02.Collection.csproj", "{1EC88E12-9417-4FB5-BBA7-AA192A68BD5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Stack", "03.Stack\03.Stack.csproj", "{33FFB45F-79D3-42DF-BCCB-BEC4F1E6F976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Froggy", "04.Froggy\04.Froggy.csproj", "{D23B89B6-5267-47BF-AB48-78FD1C653AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ComparingObjects", "05.ComparingObjects\05.ComparingObjects.csproj", "{D57CF4D2-F38F-4553-AE91-689484573825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.StrategyPattern", "06.StrategyPattern\06.StrategyPattern.csproj", "{C73C5F09-6B4F-41DB-A098-C59E2C73BD8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.EqualityLogic", "07.EqualityLogic\07.EqualityLogic.csproj", "{CF5879E1-C13F-43CF-80AF-E4805EECE10A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD0D5244-FC6A-40C4-A5D4-36F6E3817D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0D5244-FC6A-40C4-A5D4-36F6E3817D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0D5244-FC6A-40C4-A5D4-36F6E3817D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0D5244-FC6A-40C4-A5D4-36F6E3817D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC88E12-9417-4FB5-BBA7-AA192A68BD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC88E12-9417-4FB5-BBA7-AA192A68BD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC88E12-9417-4FB5-BBA7-AA192A68BD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC88E12-9417-4FB5-BBA7-AA192A68BD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FFB45F-79D3-42DF-BCCB-BEC4F1E6F976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FFB45F-79D3-42DF-BCCB-BEC4F1E6F976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FFB45F-79D3-42DF-BCCB-BEC4F1E6F976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FFB45F-79D3-42DF-BCCB-BEC4F1E6F976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23B89B6-5267-47BF-AB48-78FD1C653AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23B89B6-5267-47BF-AB48-78FD1C653AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23B89B6-5267-47BF-AB48-78FD1C653AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23B89B6-5267-47BF-AB48-78FD1C653AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57CF4D2-F38F-4553-AE91-689484573825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57CF4D2-F38F-4553-AE91-689484573825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57CF4D2-F38F-4553-AE91-689484573825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57CF4D2-F38F-4553-AE91-689484573825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73C5F09-6B4F-41DB-A098-C59E2C73BD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73C5F09-6B4F-41DB-A098-C59E2C73BD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73C5F09-6B4F-41DB-A098-C59E2C73BD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73C5F09-6B4F-41DB-A098-C59E2C73BD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5879E1-C13F-43CF-80AF-E4805EECE10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5879E1-C13F-43CF-80AF-E4805EECE10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5879E1-C13F-43CF-80AF-E4805EECE10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5879E1-C13F-43CF-80AF-E4805EECE10A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5474E374-CE16-4CE6-8916-A9301CCD1F92}
+	EndGlobalSection
+EndGlobal
